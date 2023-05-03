@@ -14,6 +14,7 @@
 		9DD0E1642A026BD500ABB80B /* MyFirstiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0E1632A026BD500ABB80B /* MyFirstiOSTests.swift */; };
 		9DD0E16E2A026BD500ABB80B /* MyFirstiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0E16D2A026BD500ABB80B /* MyFirstiOSUITests.swift */; };
 		9DD0E1702A026BD500ABB80B /* MyFirstiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0E16F2A026BD500ABB80B /* MyFirstiOSUITestsLaunchTests.swift */; };
+		9DD0E17D2A027F4600ABB80B /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD0E17C2A027F4600ABB80B /* Variable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9DD0E1692A026BD500ABB80B /* MyFirstiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD0E16D2A026BD500ABB80B /* MyFirstiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstiOSUITests.swift; sourceTree = "<group>"; };
 		9DD0E16F2A026BD500ABB80B /* MyFirstiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DD0E17C2A027F4600ABB80B /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9DD0E1542A026BD400ABB80B /* ContentView.swift */,
 				9DD0E1562A026BD500ABB80B /* Assets.xcassets */,
 				9DD0E1582A026BD500ABB80B /* Preview Content */,
+				9DD0E17C2A027F4600ABB80B /* Variable.swift */,
 			);
 			path = MyFirstiOS;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD0E1552A026BD400ABB80B /* ContentView.swift in Sources */,
+				9DD0E17D2A027F4600ABB80B /* Variable.swift in Sources */,
 				9DD0E1532A026BD400ABB80B /* MyFirstiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

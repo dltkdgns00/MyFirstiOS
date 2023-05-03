@@ -10,10 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button {
+                print("Clicked!")
+            } label: {
+                Text("안녕하세요 이상훈입니다.")
+                    .foregroundColor(Color.blue)
+                    .bold()
+                    .padding()
+                    .fontWeight(.black)
+            }
+            Text("Hello, iOS")
+                .foregroundColor(Color.red)
+            
         }
         .padding()
     }
